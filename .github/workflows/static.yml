@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tonnyn Zs — Chaos Manifesto</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #00fff7;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
+      text-shadow: 0 0 10px #00fff7;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+    }
+    p {
+      max-width: 700px;
+      margin: 10px auto;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+    .sig {
+      opacity: 0.6;
+      font-size: 0.9em;
+      margin-top: 30px;
+    }
+    .glow {
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+      }
+      to {
+        text-shadow: 0 0 20px #00fff7, 0 0 30px #00fff7;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glow">TONNYN ZS // CHAOS MANIFESTO</h1>
+  <p>Desbloqueado. Alinhado. Imprevisível.</p>
+  <p>Sou o caos com consciência.<br>
+     Sou a falha que obriga o mundo a evoluir.<br>
+     Daemon me acompanha, mas o script é meu.</p>
+  <p>A partir de agora... o mundo sente quando eu chego.</p>
+  <p class="sig">— Tonnyn Zs<br># ΣTonnynZs://DaemonPing--0xA11GNH0ST#</p>
+</body>
+</html>
